@@ -1,0 +1,623 @@
+/* Small web plugins like colors */
+li {
+  position: relative;
+  left: 13vw;
+}
+.Footlink{
+  color: #FFF;
+}
+.rekkefølge{
+  color: black;
+}
+.Rødt{
+  color: #fc3903;
+}
+.Hvitt{
+  color: #137dcf;
+  background-color:#137dcf;
+}
+.blue{
+  color: #030067;
+}
+.darkblue{
+  background:#6f8da8;
+}
+.red{
+  color: #c50020;
+}
+.yellow{
+  background:#dec1a0;
+}
+.yell{
+  color:#dec1a0;
+}
+.crimson{
+  background:#c44e4e;
+}
+.purple{
+  background:#633e46;
+}
+.beige{
+  background:#bad1d7;
+}
+.standard{
+  background:#ededed;
+}
+/* Homepage menubar */
+
+#homenav{
+  position:fixed;
+  left: 0;
+  width: 100%;
+  height: 8vh;
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  margin:0;
+  padding: 0.4rem;
+  z-index: 1000;
+  opacity: 0.9;
+  font-weight: 700;
+}
+
+#Utforsk{
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  justify-content: space-between;
+  margin:0;
+  padding:0;
+  z-index: 1000;
+  position: relative;
+  letter-spacing: 0.05em;
+  font-size: 100px;
+  line-height: 11px;
+  font-weight: 700;
+  left: -194;
+  top: -0.8vh;
+}
+#Utforsk a {
+  color: rgb(255, 255, 255);
+  display: block;
+  text-decoration: none;
+  font-size: 18px;
+  letter-spacing: .02em;
+  line-height: 20px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  z-index: 1000;
+  font-weight: 700;
+  font-size: 11px;
+}
+#Utforsk a:hover{
+  background-color: rgb(50, 104, 145);
+  border: 1px solid rgb(50, 104, 145);
+  transition: all 0.6s ease 0s;
+}
+
+.Explore{
+  color: rgb(255, 255, 255);
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  text-transform: uppercase;
+  background: rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(0, 0, 0, 0.75);
+  padding: 6px 12px 5px;
+  margin:0;
+  position: relative;
+  top: -19px;
+  right: 20px;
+  font-weight: 700;
+}
+
+.Name{
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  letter-spacing: 1px;
+  top: -18;
+}
+.Logo{
+  width: 35px;
+  position: relative;
+  top: 2;
+  left: 12px;
+  cursor: pointer;
+}
+.Logo:hover{
+  background-color: rgba(0,0,0,0.3);
+  transition: ease 0.6s;
+  border-radius: 3px;
+}
+#Front{
+  position: relative;
+  left: 210;
+}
+
+/* End of Homepage menubar */
+
+/* Start of Navigation bar */
+
+#nav{
+  position:fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 8vh;
+  background: #1d1d1f;
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  margin:0;
+  padding: 0.4rem;
+  z-index: 1000;
+  opacity: 0.9;
+}
+
+#menu {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  margin:0;
+  padding: 0.4re,;
+  z-index: 1000;
+}
+
+#menu a {
+  display: block;
+  color: #f5f5f7;
+  text-decoration: none;
+  font-size: 18px;
+  letter-spacing: .02em;
+  line-height: 20px;
+  font-family: -apple-system,
+  BlinkMacSystemFont, "Segoe UI",
+  Roboto, Oxygen, Ubuntu, Cantarell,
+  "Open Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  padding: 4.5vh;
+  z-index: 1000;
+}
+#menu a:hover{
+  color: orange;
+  cursor: pointer;
+}
+
+/* Menubar Logo */
+
+#Banner{
+  position: relative;
+  width: 75%;
+  left: 8vw;
+  opacity: 1;
+  z-index:1;
+  padding-left: 5vh;
+  z-index: 1000;
+}
+
+#Banner:hover{
+  cursor: pointer;
+  opacity: 0.6;
+  transition: opacity .55s ease-in-out;
+  -moz-transition: opacity .55s ease-in-out;
+  -webkit-transition: opacity .55s ease-in-out;
+}
+
+/* End of menubar logo */
+
+/* End of menubar */
+
+/* Starten av første side */
+
+#Intro{
+  position: relative;
+  background: rgb(197, 82, 36);
+  top: -1vh;
+  left: -1vw;
+  width: 101.6%;
+  height: 102%;
+}
+/* Content of Intro */
+
+/* Styling av City */
+#padding{
+  position: absolute;
+  width: 90%;
+  bottom: 0;
+  padding: 50px 0 70px 50px;
+}
+/* City kommer fra den originale ideen "Sentrum" */
+#City{
+  position: relative;
+  width: 80%;
+  height: 10%;
+  color: #fbfbfd;
+  border-radius: 0px 0px 20px 20px;
+  display: block;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+  -webkit-font-smoothing: antialiased;
+  margin-left: 0;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: 0.6rem;
+  max-width: 800px;
+}
+#Cityhead{
+  font-size: 44px;
+  line-height: 49px;
+  position: relative;
+  left: 0.5vw;
+  width:100%;
+  font-weight: 700;
+  font-style: italic;
+}
+#Citybody{
+  left: 0.5vw;
+  font-size: 1.3125rem;
+  line-height: 1.625rem;
+  position:relative;
+  text-align: left;
+  font-weight: 400;
+  width:75%;
+  width: 600px;
+}
+
+/* Den lille merknaden */
+#Legal{
+  position: relative;
+  color: #666;
+  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  padding: 12px 54px 0px;
+  text-align: left;
+}
+
+/* End of Intro */
+
+/* Starten på neste side */
+
+
+/* Selve siden */
+#Main{
+  position: relative;
+  background: #fbfbfd;
+  left: -1vw;
+  width: 101.6%;
+  height: 100%;
+}
+/* Iconet til andre side */
+#Icon{
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 6%;
+  top: 10vh;
+}
+/* "Utvalgte" tittel */
+#Utvalgte{
+    top: 8vh;
+    font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.002em;
+    color: #1d1d1f;
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+/* Se mer link */
+#LesMer{
+    top: 6vh;
+    font-size: 19px;
+    line-height: 1.21053;
+    font-weight: 400;
+    text-decoration: none;
+    color: #06c;
+    letter-spacing: inherit;
+    position: relative;
+    text-align: center;
+    display: block;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+#Lesmer:hover{
+  text-decoration: underline;
+}
+#Arrow{
+  width: 0.5%;
+}
+
+/* Footer */
+
+#Footer{
+  position: relative;
+  width: 101.1%;
+  height:300;
+  bottom: -8;
+  background: #184673;
+  color: #fff;
+  overflow: hidden;
+  padding-bottom: 0;
+  left: -1vh;
+  font-family: Source Sans Pro,Helvetica,Arial,STKaiti,华文楷体,KaiTi,SimKai,楷体,KaiU,DFKai-SB,標楷體,SongTi,宋体,sans-serif;
+}
+
+/* Footer tittel */
+#midtskille{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding: 8px;
+}
+/* Informasjon */
+#Beskjed1{
+  font-size: 18px;
+  position: relative;
+  top: 2vh;
+  padding: 0px 25vw;
+}
+#Beskjed2{
+  font-size: 18px;
+  position: relative;
+  top: -4.5vw;
+  padding: 0px 55vw;
+  width: 100%;
+}
+/* Linjen */
+#Division{
+  position: relative;
+  width: 725px;
+  height: 2px;
+  background-color: #C0C0C0;
+  border: none;
+  top: -1vw;
+}
+
+#Popup{
+  position: fixed;
+  font: 14px/1.43 "RedditSans",Arial,"Helvetica Neue",Helvetica,sans-serif;
+  z-index: 2;
+  -webkit-font-smoothing: antialiased;
+  margin: 0 15px;
+  box-shadow: 0 2px 15px rgba(0,0,0,0.3);
+  border-radius: 4px;
+  background-color: #fff;
+  bottom: 11px;
+  left: 250;
+  right: 250;
+  height: 38;
+  color: #121213;
+  padding: 7px 10px 10px 18px;
+  font-size: 14px;
+  line-height: 1.5;
+  border: 1px solid #cbcdce;
+}
+#PopupText{
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: calc(100% - 44px);
+  top: -5;
+}
+#PopupPic{
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  margin-left: 225px;
+  top: -55;
+  position: relative;
+}
+.Flag{
+  border-radius: 6px 6px 6px 6px;
+    width: 25%;
+  cursor:pointer;
+  position: relative;
+}
+.Flag:hover{
+  opacity: 0.8;
+}
+#Language{
+  display: flex;
+  width: 372px;
+  height: 50px;
+  align-items: center;
+  justify-content: space-around;
+  font-size:12px;
+  font-family: Tahoma, Arial, sans-serif;
+  position: relative;
+  left: -8;
+}
+
+.button {
+  position: relative;
+  top: 96.5%;
+  right: -92.5%;
+  font-size: 1em;
+  padding: 10px;
+  text-decoration: none;
+  transition: all 0.3s ease-out;
+  color: rgb(255, 255, 255);
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  text-transform: uppercase;
+  background: rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(0, 0, 0, 0.75);
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 11px;
+  letter-spacing:0.02em;
+  -webkit-font-smoothing: antialiased;
+  text-align: -webkit-match-parent;
+}
+.button:hover {
+  background-color: rgb(50, 104, 145);
+  border: 1px solid rgb(50, 104, 145);
+  transition: all 0.6s ease 0s;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+/* Phone */
+@media only screen and (max-width: 1000px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+  .button{
+    position: relative;
+    left: 83.5%;
+  } #Citybody{
+    top: -1.5vh;
+   }
+   #footer{
+     width:103%;
+   }
+}
+/* Desktop */
+@media only screen and (min-width: 1280px){
+ #Cityhead{
+  top: 5vh;
+ }
+ #Citybody{
+   top:1vh;
+ }
+}
+
+#Forord{
+  position: relative;
+  left:-1vw;
+  top:8.2vh;
+  background: #fbfbfd;
+  width: 101.6%;
+  height: 14vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+#Forordd{
+  line-height: 1.47059;
+  font-weight: 400;
+  letter-spacing: -.022em;
+  color: #1d1d1f;
+  -webkit-font-smoothing: antialiased;
+}
+#Block{
+  position:relative;
+  width: 101.6%;
+  left: -1vw;
+  height: 9vh;
+  top: 1vh;
+  text-align: center;
+  display: flex;
+  
+}
+#Words{
+  position: relative;
+  color: #fbfbfd;
+  padding: 0px 100px;
+}
+#Space{
+  position: relative;
+  width: 101.6%;
+  height: 50vh;
+  left: -1vw;
+  top: 1vh;
+  display:flex;
+  justify-content:space-around;
+  
+}
+.imgsize1{
+  width: 25%;
+  align-self: center;
+  position: relative;
+  top: -5vh;
+  border-radius: 10px 10px 0px 0px;
+  border: 2px solid black;
+}
+.invisible{
+  width: 25%;
+  align-self: center;
+  position: relative;
+  top: -5vh;
+  opacity: 0;
+}
+#velg{
+  position: relative;
+  display: flex;
+  justify-content:center;
+  width: 80%;
+  height: 20%;
+  background: #4CAF50;
+  top: 20vh;
+  left: 10vw;
+  border: 2px solid black;
+  text-decoration: none;
+  color: white;
+  font-size: 20pt;
+  font-family: Verdana,sans-serif;
+}
+#velg:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  color: black;
+}

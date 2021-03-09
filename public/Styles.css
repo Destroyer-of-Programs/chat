@@ -1,0 +1,292 @@
+body{
+    background-image: linear-gradient(to right, lightblue, #327da8);
+}
+
+#Container{
+    position: relative;
+    top: 0;
+    width: 95%;
+    left: 2.5%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+#Contacts{
+    position: relative;
+    background: #f7f6f5;
+    border-radius: 2px 0px 0px 2px;
+    width: 50%;
+    height: 85%;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    border: 1px solid #d9d9d9;
+}
+#Chatbox{
+    position: relative;
+    background: #fff;
+    width: 100%;
+    height: 85%;
+    display: flex;
+    flex-flow: column;
+    color: #4d4d4d;
+    font-family: 'Noto Sans', Sans-Serif;
+    -webkit-font-smoothing: antialiased;
+    border: 1px solid #d9d9d9;
+}
+#Name{
+    position: relative;
+    background: #edebe8;
+    border-bottom: 1px solid #d9d9d9;
+    width: 100%;
+    height: 9%;
+    display: flex;
+    align-items: center;
+}
+#Name2{
+    position: relative;
+    background: #edebe8;
+    border-bottom: 1px solid #d9d9d9;
+    width: 100%;
+    height: 9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Nickname{
+    background: #fff;
+    position: relative;
+    width: 70%;
+    height: 60%;
+    border-radius: 20px;
+    border: 1px solid #d9d9d9;
+    display: flex;
+    align-items: center;
+}
+.nicknameText{
+    -webkit-font-smoothing:antialiased;
+    padding: 0px 20px;
+    opacity: 0.8;
+}
+#Contact{
+    background:#f7f6f5;
+    position: relative;
+    width: 100%;
+    height: 10%;
+    display: grid;
+}
+#Contact:hover{
+    background: #e7f0de;
+    cursor: pointer;
+}
+#user{
+    position: relative;
+    padding: 0px 40px;
+    margin: 0;
+    color: #1f1f1f;
+    font-size: 1.2em;
+    top:7;
+}
+#lastSaid{
+    position: relative;
+    color: #787878;
+    margin: -2;
+    padding: 0px 40px;
+    -webkit-font-smooting:none;
+    white-space: nowrap;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    top:7;
+    width: 49%;
+}
+#time{
+    position: relative;
+    color: #787878;
+    margin: 0;
+    top:-30;
+    left: 325;
+} 
+#inputField{
+    position: relative;
+    background: #edebe8;
+    border-top: 1px solid #d9d9d9;
+    width: 100%;
+    height: 66;
+    display:flex;
+    align-items: center;
+}
+#typeMessage{
+    position: relative;
+    width: 80%;
+    height: 60%;
+    border-radius: 20px;
+    border: 1px solid #d9d9d9;
+    display: flex;
+    align-items: center;
+    margin:1.5em;
+    font: inherit;
+}
+#button{
+    position:relative;
+    border-radius: 99px;
+    background: #629924;
+    padding: .85em 2.5em;
+    border: none;
+    cursor: pointer;
+    transition: all 150ms;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.225);
+    top: 7;
+}
+#button:hover{
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.300);
+}
+.sendText{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-size: 12pt;
+}
+.inputStyle{
+    position: relative;
+    top: -8;
+    height: 60%;
+    width: 70%;
+}
+#text-message{
+    width: 347%;
+    max-width: 347%;
+    min-width: 248%;
+    
+}
+
+#Messages{
+    position: relative;
+    width: 100%;
+    height:90%;
+    grid-area: Messages;
+    display:flex;
+    flex-direction: column-reverse;
+    overflow-y: scroll;
+    row-gap:2px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+}
+#welcome{
+    position: relative;
+    display: grid;
+    place-content: center;
+    opacity: 0.4;
+}
+.mine{
+    padding: 9px 14px;
+    background: #e7f0de;
+    border-radius: 6px 0px 6px 6px;
+    color: #1f1f1f;
+    box-shadow: 0 1px 0.5px rgba(0,0,0,0.13);
+    position:relative;
+    -webkit-font-smoothing:antialiased;
+    font-size: calc(12px + 2 * ((100vw - 320px) / 880));
+}
+.theirs{
+    display: grid;
+    grid-template-columns: 70%;
+    justify-items: start;
+    padding: 2px 3em;
+}
+.package{
+    display: grid;
+    justify-items: end;
+    grid-template-columns: 70%;
+    padding: 2px 3em;
+    justify-content: end;
+}
+
+.message-text{
+    padding: 9px 14px;
+    font-size: calc(12px + 2 * ((100vw - 320px) / 880));
+    margin-bottom: 5px;
+    background: #e7f0de;
+    border-radius: 6px 0px 6px 6px;
+    color: #1f1f1f;
+    box-shadow: 0 1px 0.5px rgba(0,0,0,0.13);
+    -webkit-font-smoothing:antialiased;
+}
+.message-time{
+    font-size: calc(12px + 2 * ((100vw - 320px) / 880));
+    color: #787878;
+    font-size: .8em;
+    float: right;
+    margin: .1em 0 0 2em;
+    font-family: 'Roboto', Sans-Serif;
+    font-style: normal;
+}
+.mine .message-text{
+    display: grid;
+    grid-template-columns: 70%;
+    justify-content: end;
+    justify-items: end;
+    background: #e7f0de;
+    border-radius: 6px 0px 6px 6px;
+    color: #1f1f1f;
+    box-shadow: 0 1px 0.5px rgba(0,0,0,0.13);
+    -webkit-font-smoothing:antialiased;
+    padding: 9px 14px 14px;
+}
+.theirs .message-text{
+    background: #f9eede;
+    border-radius: 0px 6px 6px 6px; 
+    color: #1f1f1f;
+    box-shadow: 0 1px 0.5px rgba(0,0,0,0.13);
+    -webkit-font-smoothing:antialiased;
+}
+
+
+
+@media only screen and (max-width: 1000px){
+    #name, #name2{
+        height: 5%;
+        border-top: 1px solid #d9d9d9;
+        border-left: 0.5px solid #d9d9d9;
+        border-right: 0.5px solid #d9d9d9;
+    }
+    #Contacts{
+       width: 40%;
+    }
+    #Contact{
+        height: 7%;
+    }
+    #user{
+        top: 25;
+    }
+    #lastSaid{
+        top: 15;
+    }
+    #typeMessage{
+        position:relative;
+        margin: 1em;
+        top: 8;
+    }
+    #text-message{
+        width: 248%;
+        position:relative;
+        top:8;
+    }
+    body{
+        background: #edebe9 linear-gradient(to bottom, #dbd7d1, #edebe9 116px) no-repeat;
+    }
+  }
+  @media screen and (max-width: 1100px) and (min-width: 1000px) {
+    #text-message{
+        width: 190%;
+        min-width: 233%;
+    }
+    #typemessage{
+        border: 0;
+    }
+  }
